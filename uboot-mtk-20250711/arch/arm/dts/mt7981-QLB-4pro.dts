@@ -56,17 +56,17 @@
 
 		led-0 {
 			label = "red:system";
-			gpios = <&pio 35 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 13 GPIO_ACTIVE_LOW>;
 		};
 
 		led-1 {
 			label = "green:system";
-			gpios = <&pio 9 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 7 GPIO_ACTIVE_LOW>;
 		};
 
 		led-2 {
 			label = "blue:system";
-			gpios = <&pio 12 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 15 GPIO_ACTIVE_LOW>;
 		};
 	};
 
